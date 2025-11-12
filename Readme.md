@@ -76,6 +76,29 @@ npm run dev
 Frontend runs at:
 👉 http://localhost:3000
 
+
+
+##🐳 Docker Support
+Build and run locally
+```
+cd backend
+docker build -t ethosai-backend .
+docker run -p 8001:8001 ethosai-backend
+```
+
+##Deploy on Cloud
+AWS ECS: Use Docker image
+Google Cloud Run: Deploy using
+```
+gcloud run deploy ethosai-backend \
+  --image docker.io/<your user name>/ethosai-backend:v2 \
+  --platform managed \
+  --allow-unauthenticated \
+  --region asia-south1
+
+```
+
+
 ## 🌟 Why This Project Matters
 
 ML models often behave unfairly across gender, race, age, or region—especially in hiring, finance, and insurance.
