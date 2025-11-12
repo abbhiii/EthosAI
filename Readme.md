@@ -7,7 +7,8 @@ This project demonstrates:
 ✅ Responsible AI  
 ✅ Bias detection & explainability  
 ✅ Real ML fairness metrics  
-✅ Full-stack engineering (FastAPI + Next.js)
+✅ Full-stack engineering (FastAPI + Next.js) 
+
 ✅ Cloud Deployment on AWS & GCP
 
 ---
