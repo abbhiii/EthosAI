@@ -78,7 +78,7 @@ Frontend runs at:
 
 
 
-##🐳 Docker Support
+## 🐳 Docker Support
 Build and run locally
 ```
 cd backend
@@ -86,7 +86,7 @@ docker build -t ethosai-backend .
 docker run -p 8001:8001 ethosai-backend
 ```
 
-##Deploy on Cloud
+## Deploy on Cloud
 AWS ECS: Use Docker image
 Google Cloud Run: Deploy using
 ```
@@ -97,7 +97,6 @@ gcloud run deploy ethosai-backend \
   --region asia-south1
 
 ```
-
 
 ## 🌟 Why This Project Matters
 
